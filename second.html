@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorry - Second Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url('https://wallpapercave.com/wp/wp2563417.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            color: #444;
+        }
+        h1 {
+            margin-top: 15%;
+            font-size: 2.5em;
+            line-height: 1.8;
+            font-family: 'Dancing Script', cursive;
+            font-weight: 500;
+            color: #333;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 25px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.85);
+            cursor: pointer;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            font-family: 'Playfair Display', serif;
+        }
+        button:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        I think hamara dosti mein ups and downs came very fast, <br>
+        and mene na right mind pe nhi tha and took the foolish decision to leave you. <br><br>
+
+        Muje lagta hai ki ye spiritual India trip will bring lots of changes in me. <br>
+        You're a good friend of mine, and I want you in my life after coming back to Ireland! <br><br>
+
+        Ye two months mere liye important hai and it's not break, we will be in touch but I am fed up with Ireland as of now. <br>
+        You're one of the few people who tried to understand me,and i value our bond,time spend together with u!I don't want this bond to go
+        away this easily that's why I have done this webpage!a way to convey my words!and My question for you ....... ! <br><br>
+
+    </h1>
+    <form action="{{ url_for('third_page') }}">
+        <button type="submit">Next</button>
+    </form>
+</body>
+</html>
